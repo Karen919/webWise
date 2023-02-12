@@ -1,0 +1,222 @@
+
+  @media (max-width:300px) {
+    pre {
+        width: 200px;
+    }
+    #arrayContext p {
+        width: 200px;
+
+    }
+
+    #sectionArray div ul li {
+      font-size: 13px;
+      padding: 2px;
+      margin-left: 1px;
+  }
+  #sectionArray {
+    width: 200px;
+
+  }
+  
+  }
+    /* **********************************************************************************************************400px */
+
+  @media (max-width:400px) {
+    pre {
+      width: 300px;
+    }
+    #arrayContext p {
+      width: 250px;
+    }
+    #sectionArray div ul li {
+      font-size: 15px;
+      padding: 3px;
+      margin-left: 1.3px;
+  }
+  .headerContent {
+    width: 250px;
+
+  }
+  }
+    /* **********************************************************************************************************500px */
+
+  @media (max-width:500px) {
+    pre {
+      width: 400px;
+    }
+    #arrayContext p {
+      width: 300px;
+    }
+    #sectionArray div ul li {
+      font-size: 16px;
+      padding: 4px;
+      margin-left: 1.8px;
+  }
+  #sectionArray {
+    width: 400px;
+
+  }
+  }
+    /* **********************************************************************************************************600px */
+
+  @media (max-width:600px) {
+    pre {
+      width: 500px;
+    }
+    #arrayContext p {
+      width: 350px;
+    }
+    #sectionArray div ul li {
+      font-size: 17px;
+      padding: 5px;
+      margin-left: 2px;
+  }
+  #sectionArray {
+    width: 500px;
+
+  }
+
+  
+  }
+    /* **********************************************************************************************************700px */
+
+  @media (max-width:700px) {
+    pre {
+      width: 600px;
+    }
+    #arrayContext p {
+      width: 500px;
+    }
+    #sectionArray div ul li {
+      font-size: 18px;
+      padding: 6px;
+      margin-left: 2.4px;
+  }
+  #sectionArray {
+    width: 600px;
+
+  }
+  }
+    /* **********************************************************************************************************800px */
+
+  @media (max-width:800px) {
+   pre {
+      width: 700px;
+    }
+    #arrayContext p {
+    width: 500px;
+    }
+    #sectionArray div ul li {
+      font-size: 19px;
+      padding: 7px;
+      margin-left: 3px;
+  }
+  #sectionArray {
+    width: 700px;
+
+  }
+  }
+    /* **********************************************************************************************************900px */
+
+  @media (max-width:900px) {
+    pre {
+       width: 790px;
+     }
+     #arrayContext p {
+       width: 700px;
+     }
+     #sectionArray div ul li {
+      font-size: 20px;
+      padding: 8px;
+      margin-left: 3.5px;
+  }
+  #sectionArray {
+    width: 800px;
+  }
+ 
+  /* .title {
+    padding: 30px;
+    font-size: 35px;
+  } */
+
+ 
+   }
+     /* **********************************************************************************************************1000 */
+
+   @media (max-width:1000px) {
+    pre {
+      width: 800px;
+    }
+    #arrayContext p {
+      width: 700px;
+
+    }
+    #sectionArray div ul li {
+      font-size: 22px;
+      padding: 9px;
+      margin-left: 3.9px;
+  }
+  #sectionArray {
+    width: 800px;
+
+  }
+  .section {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+.title {
+    margin: 43px;
+}
+  }
+    /* **********************************************************************************************************1100px*/
+
+  @media (max-width:1100px) {
+    pre {
+      width: 1000px;
+
+    }
+    #arrayContext p {
+      width: 1000px;
+    }
+    #sectionArray div ul li {
+      font-size: 23px;
+      padding: 10px;
+      margin-left: 4px;
+  }
+  #sectionArray {
+    width: 1000px;
+
+  }
+  .section {
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+.title {
+    margin: 13px;
+}
+  }
+    /* **********************************************************************************************************1450px */
+
+  @media (max-width:1450px) {
+    pre {
+      width: 1440px;
+    }
+    #arrayContext p {
+        width: 1300px;
+    }
+    #sectionArray div ul li {
+      font-size: 25px;
+      padding: 10px;
+      margin-left: 4.5px;
+  }
+  #sectionArray {
+    width: 1200px;
+
+  }
+
+
+    }
+

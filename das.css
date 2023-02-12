@@ -1,0 +1,132 @@
+
+main {
+    overflow: hidden;
+    margin-top: 50px;
+    /* background-color: var(--divBgColor); */
+    padding-top: 50px;
+}
+.section  {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+.section ul {
+    margin-left: 60px;
+}
+.section ul li {
+    padding: 16px;
+    font-size: large;
+    margin-left: 4px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.section ul li:hover {
+    color: var(--liColor);
+}
+pre {
+    width: 1400px;
+  }
+  #arrayContext p {
+    width: 1000px;
+    padding: 20px;
+  }
+  #arrayContext {
+    overflow: hidden;
+  padding: 30px;
+  /* background-color: var(--divBgColor); */
+  color: aliceblue;
+  }
+
+/* /* /* ********************************** Array */
+
+#sectionArray {
+    display: none;
+    background-color: azure;
+}
+
+#sectionArray h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    color: var(--liColor);
+}
+
+#sectionArray div {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+}
+#sectionArray ul li {
+    font-size: x-large;
+    padding: 10px;
+    margin-left: 4px;
+    cursor: pointer;
+    color: aliceblue;
+    text-align: center;
+}
+
+#sectionArray ul li:hover {
+    color: var(--liColor);
+}
+
+/* .title {
+    font-size: xx-large; 
+    color: var(--liColor);
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.title:hover {
+    color: wheat;
+} */
+
+.arrayMethod {
+    border: 2px solid var(--liColor);
+    border-radius: 33px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.divCenter {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-content: flex-start;
+text-align: start;
+}
+#df {
+    color: black;
+}
+
+.jsNone{
+    display: none;
+    text-align: center;
+  }
+  .windowNone {
+    display: none;
+  }
+  .domNone{
+    display: none;
+  }
+  .eventNone {
+    display: none;
+  }
+  .apiNone {
+    display: none;
+  }
+  .section {
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+.title {
+    margin: 23px;
+    font-size: large;
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ԴԱՍԸՆԹԱՑՆԵՐ</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Kanit:wght@600&family=Oswald:wght@300&family=Roboto:ital,wght@0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="header">
+    <a href="das.html" class="logo">webWise</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      
+      <li><a href="das.html">JAVASCRIPT</a></li>
+    
+    </ul>
+  </header>
+      <main>
+        <section class="section" id="section">
+         <div class="divCenter">
+          <button id="js" class="glow-on-hover title" type="button">JavaScript</button>
+          <ul id="jsNone" class="jsNone">
+            <li id="array">Array</li>
+            <li id="boolean">Boolean</li>
+            <li>Classes</li>
+            <li>Date</li>
+            <li>Error</li>
+            <li>Global</li>
+            <li>Json</li>
+            <li>Math</li>
+            <li>Number</li>
+            <li>Object</li>
+            <li>Operators</li>
+            <li>Precedence</li>
+            <li>RegExp</li>
+            <li>Statements</li>
+            <li>String</li>
+            <li>TypedArray</li>
+          </ul>
+         </div>
+         <div class="divCenter">
+          <button id="window" class="glow-on-hover title" type="button">WINDOW</button>
+          <ul id="windowNone" class="windowNone">
+            <li>Window Oject</li>
+            <li>Window Console</li>
+            <li>Windov Location</li>
+            <li>Window Navigation</li>
+            <li>Window Scrin</li>
+          </ul>
+         </div>
+         <div class="divCenter">
+          <button id="dom" class="glow-on-hover title" type="button">HTML DOM</button>
+          <ul class="domNone" id="domNone">
+            <li id="htmlDocuments">Html Documnets</li>
+            <li>Html Elemnets</li>
+            <li>Html Attributes</li>
+            <li>Html Colection</li>
+            <li>Html Nodelist</li>
+            <li>Html DomTokenList</li>
+            <li>Html Styles</li>
+          </ul>
+         </div>
+          <div class="divCenter">
+            <button id="events" class="glow-on-hover title" type="button">HTML EVENTS</button>
+            <ul class="eventNone" id="eventNone">
+              <li>Html Events</li>
+              <li>HTml Event Object</li>
+              <li>Html Event Proporties</li>
+              <li>Html Event Methods</li>
+            </ul>
+          </div>
+         <div class="divCenter">
+          <button id="api"class="glow-on-hover title" type="button">WEB API</button>
+          <ul class="apiNone" id="apiNone">
+            <li>Api Console</li>
+            <li>Api Fetch</li>
+            <li>Api Fullscrin</li>
+            <li>Api Geolocation</li>
+            <li>Api Histoey</li>
+            <li>Api MediaQueryList</li>
+            <li>Api Storage</li>
+            <li>Api Validation</li>
+            <li>Api Web</li>
+          </ul>
+         </div>
+       
+        </section>
+        <section id="sectionArray">
+          <h1>ARRAY</h1>
+          <div class="arrayMethod">
+            <ul>
+              <li>concat()</li>
+              <li>copyWithin()</li>
+              <li>entries()</li>
+              <li>every()</li>
+            </ul>
+            
+            <ul>
+              <li>fill()</li>
+              <li>filter()</li>
+              <li>find()</li>
+              <li>findeindex()</li>
+            </ul>
+            <ul>
+              <li>forEach()</li>
+              <li>from()</li>
+              <li>incudes()</li>
+              <li>indexOf()</li>
+            </ul>
+            <ul>
+              
+              <li>isArray()</li>
+              <li>join()</li>
+              <li>keys()</li>
+              <li>lestindexOf()</li>
+            </ul>
+            <ul>
+              <li>length</li>
+              <li>map()</li>
+              <li>pop()</li>
+              <li>prototype</li>
+            </ul>
+            <ul>
+              <li>push()</li>
+              <li>reduce()</li>
+              <li>sort()</li>
+              <li>reduceRight()</li>
+            </ul>
+            <ul>
+              <li>reverse()</li>
+              <li>shift()</li>
+              <li>slice()</li>
+              <li>some()</li>
+            </ul>
+            <ul>
+              <li>splice()</li>
+              <li>toString</li>
+              <li>unshift()</li>
+              <li>valueOf()</li>
+            </ul>
+          </div>
+<div id="arrayContext">    
+  <p>
+    Զանգվածները JavaScript-ում տվյալների հիմնարար կառուցվածք են և օգտագործվում են մեկ փոփոխականում բազմաթիվ արժեքներ պահելու համար:
+    Դրանք սահմանվում են քառակուսի փակագծերով [], իսկ արժեքները բաժանվում են ստորակետերով։ Ահա մի օրինակ.
+  </p>      
+  <pre>
+    <code class="language-javascript">
+var fruits = ["apple", "banana", "cherry"];
+    </code>
+  </pre>
+    <p>
+      Զանգվածի յուրաքանչյուր արժեք հայտնի է որպես տարր և կարող է մուտք գործել իր ինդեքսով: Ցուցանիշը զրոյի վրա հիմնված ամբողջ թիվ է, 
+      որը սկսվում է 0-ից և բարձրանում մինչև n-1, որտեղ n-ը զանգվածի տարրերի թիվն է։ Օրինակ, մրգերի զանգվածի առաջին տարրը հասանելի կլինի այսպես.
+    </p>
+    <pre>
+    <code class="language-javascript">
+fruits[0]; // վերադառնում է "apple"
+    </code>
+  </pre>
+  <p>
+    JavaScript-ի զանգվածները դինամիկ են, և ցանկացած պահի կարող եք տարրեր ավելացնել, հեռացնել կամ փոփոխել: Օրինակ:
+  </p>
+  <pre>
+  <code class="language-javascript">
+fruits.push("orange"); // ավելացնում է տարր զանգվածի վերջում
+fruits.pop(); // հեռացնում է զանգվածի վերջին տարրը
+fruits.splice(1, 1, "kiwi"); // հեռացնում է 1-ին ինդեքսում գտնվող տարրը և տեղադրում «kivi» այդ դիրքում
+  </code>  
+  </pre>
+  <p>
+    Զանգվածներն ունեն նաև մի շարք ներկառուցված մեթոդներ, որոնք թույլ են տալիս տարբեր գործողություններ կատարել տարրերի վրա,
+    ինչպիսիք են տեսակավորումը, զտումը, քարտեզագրումը, կրճատումը և այլն: Ահա մի քանի ընդհանուր օրինակներ.
+  </p>
+  <pre>
+  <code class="language-javascript">
+fruits.sort(); // դասավորում է տարրերը աճման կարգով
+fruits.reverse(); // փոխում է տարրերի հերթականությունը
+fruits.filter(function(fruit) { return fruit.length > 5; }); // վերադարձնում է զանգված, որի երկարությունը 5-ից մեծ է տարրերով
+fruits.map(function(fruit) { return fruit.toUpperCase(); }); // վերադարձնում է մեծատառի վերածված տարրերով զանգված
+fruits.reduce(function(total, fruit) { return total + fruit.length; }, 0);// վերադարձնում է տարրերի երկարությունների գումարը
+  </code>
+  </pre>
+  <p>
+    Նկատի ունեցեք, որ JavaScript-ում զանգվածները կարող են պահել տարբեր տիպի տարրեր և նույնիսկ խառնել տարբեր տեսակների: Օրինակ:
+  </p>
+  <pre>
+  <code class="language-javascript">
+var mixed = [1, "apple", true, { name: "John" }];
+  </code>
+  </pre>
+  <p>
+    Այս ճկունությունը զանգվածները դարձնում է հզոր գործիք JavaScript-ում տվյալները ներկայացնելու և կազմակերպելու համար:
+  </p>
+</div>
+        </section>
+        <section id="sectionHtmlDocument">
+          <div class="buttonCenter">
+            <button id="htmlDocumentsButton" class="glow-on-hover " type="button" >HTML DOCUMENTS</button>
+          </div>
+          <div class="htmlDomHeaderCenter">
+          <div id="htmlDocumentHeader">
+            <ul>
+              <li id="activeElementButton">activeElement</li>
+              <li>addEventLisener()</li>
+              <li>adoptNode</li>
+              <li>baseUrl</li>
+              <li>body</li>
+            </ul>
+            <ul>
+              <li>characterSet</li>
+              <li>close()</li>
+              <li>cookie</li>
+              <li>crateAttribute()</li>
+              <li>crateComent()</li>
+            </ul>
+            <ul>
+              <li>createDocumentFragment()</li>
+              <li>createElement()</li>
+              <li>createEvent()</li>
+              <li>createTextNode</li>
+              <li>defoultViev</li>
+            </ul>
+            <ul>
+              <li>designMode</li>
+              <li>doctype</li>
+              <li>documentElement</li>
+              <li>documentUrl</li>
+              <li>domain</li>
+            </ul>
+            <ul>
+              <li>embeds</li>
+              <li>execCommand()</li>
+              <li>forms</li>
+              <li>getElementById()</li>
+              <li>getElemntsByClassName()</li>
+            </ul>
+            <ul>
+              <li>getElementsByTagName()</li>
+              <li>hasFocus()</li>
+              <li>head</li>
+              <li>images</li>
+              <li>implementation</li>
+            </ul>
+            <ul>
+              <li>importNode()</li>
+              <li>lastModified</li>
+              <li>links</li>
+              <li>normalize()</li>
+              <li>open()</li>
+            </ul>
+            <ul>
+              <li>querySelector()</li>
+              <li>querySelectorAll()</li>
+              <li>readyState</li>
+              <li>referrer</li>
+              <li>removeEventListener()</li>
+            </ul>
+            <ul>
+              <li>scripts</li>
+              <li>title</li>
+              <li>URL</li>
+              <li>write()</li>
+              <li>writeln()</li>
+            </ul>
+        </div>
+        </div>
+        <div id="htmlDocumentBoddy">
+          <div class="activeElement"  id="activeElement">
+            <p>
+              «activeElement»-ը վերաբերում է վեբ էջի այն տարրին, որը ներկայումս կենտրոնացված է և ընտրված է օգտատերերի փոխազդեցության համար:
+               Սա կարող է լինել մուտքագրման դաշտ, կոճակ, հղում կամ վեբ էջի ցանկացած այլ ինտերակտիվ տարր: Ակտիվ տարրը որոշվում է օգտատիրոջ ներկայիս 
+               գտնվելու վայրով, օրինակ՝ մկնիկի սեղմումով, էջի վրայով ներդիրներով կամ ստեղնաշարի նավարկմամբ: Ակտիվ տարրը կարևոր է հասանելիության
+                նպատակներով, քանի որ այն օգնում է օգտատերերին նավարկելու վեբ էջի միջով և շփվել բովանդակության հետ:
+            </p>
+            <p>
+              «activeElement» հատկությունը փաստաթղթի օբյեկտի մոդելի (DOM) մասն է և հասանելի է JavaScript-ի միջոցով: Այն թույլ է տալիս ծրագրային կերպով 
+              մուտք գործել և շահարկել տվյալ պահին ընտրված տարրը վեբ էջի վրա:
+            </p>
+            <p>
+              Դուք կարող եք օգտագործել «activeElement» հատկությունը՝ իրականացնելու այնպիսի գործողություններ, ինչպիսիք են տարրի կիզակետը փոխելը,
+               դրա ոճը փոխելը կամ այնպիսի իրադարձություններ հրահրել, ինչպիսիք են՝ սեղմելը կամ ուղարկելը: Օրինակ, դուք կարող եք օգտագործել հետևյալ
+                կոդը՝ վեբ էջի վրա կենտրոնացումը որոշակի տարրի վրա փոխելու համար.
+            </p>
+            <pre>
+              <code class="language-javascript"> 
+  document.activeElement.blur();
+  document.getElementById("myInput").focus();              
+              </code>
+            </pre>
+            <p>
+              «activeElement» հատկությունը աջակցվում է ժամանակակից վեբ բրաուզերների կողմից, ներառյալ Google Chrome-ը, Mozilla Firefox-ը և Microsoft Edge-ը,
+               ինչպես նաև Internet Explorer 11 և ավելի ուշ տարբերակները:
+            </p>
+            <p>
+              Ահա մի քանի օրինակ, թե ինչպես կարող եք օգտագործել «activeElement» հատկությունը JavaScript-ում.
+            </p>
+            <p>
+              'activeElement' ի ոճի փոփոխություն.
+            </p>
+            <pre>
+              <code class="language-avascript">
+  document.activeElement.style.backgroundColor = "yellow";
+              </code>
+            </pre>
+            <p>
+              Ստուգելով, արդյոք տարրը 'activeElement' է.
+            </p>
+            <pre>
+              <code class="language-javascript">
+  if (document.activeElement === document.getElementById("myButton")) {
+   console.log("The button is the active element");}
+              </code>
+            </pre>
+          </div>
+        </div>
+        
+        </section>
+      </main>
+
+    <script src="script.js"></script>
+    <script src="prism.js"></script>
+</body>
+</html>

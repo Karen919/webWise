@@ -1,0 +1,73 @@
+#sectionHtmlDocument {
+    display: none;
+    color: aliceblue;   
+  }
+
+#htmlDocumentHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid var(--liColor);
+    width: 90%;
+    border-radius: 33px;
+}
+
+#htmlDocumentHeader ul {
+    padding: 40px;
+    font-size: large;
+
+}
+.buttonCenter  {
+text-align: center;  
+font-size: large;  
+   
+
+}
+.htmlDomHeaderCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#htmlDocumentHeader li {
+    text-align: start;
+    padding: 5px;
+  }
+  #htmlDocumentHeader li:hover {
+    color: var(--liColor);
+    cursor: pointer;
+  }
+  .activeElement p {
+    padding: 20px;
+  }
+@media (max-width:766px) {
+    #htmlDocumentHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    #htmlDocumentHeader li {
+      text-align: start;
+      padding: 3px;
+    }
+.activeElement {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+   
+}
+
+@media (max-width:400px){
+    .activeElement {
+        width: 250px;
+        padding: 5px;
+    }
+}
+
+.activeElement {
+    display: none;
+}
