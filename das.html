@@ -18,12 +18,12 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      
+    
       <li><a href="das.html">JAVASCRIPT</a></li>
     
     </ul>
   </header>
-      <main>
+      <main id="main">
         <section class="section" id="section">
          <div class="divCenter">
           <button id="js" class="glow-on-hover title" type="button">JavaScript</button>
@@ -202,15 +202,15 @@ var mixed = [1, "apple", true, { name: "John" }];
   </p>
 </div>
         </section>
-        <section id="sectionHtmlDocument">
+        <section id="sectionHtmlDocument" class="sectionHtmlDocument">
           <div class="buttonCenter">
             <button id="htmlDocumentsButton" class="glow-on-hover " type="button" >HTML DOCUMENTS</button>
           </div>
           <div class="htmlDomHeaderCenter">
           <div id="htmlDocumentHeader">
             <ul>
-              <li id="activeElementButton">activeElement</li>
-              <li>addEventLisener()</li>
+              <li onclick="htmlDomMethodsCall('activeElement')">activeElement()</li>
+              <li id="xz">addEventLisener()</li>
               <li>adoptNode</li>
               <li>baseUrl</li>
               <li>body</li>
@@ -274,7 +274,7 @@ var mixed = [1, "apple", true, { name: "John" }];
         </div>
         </div>
         <div id="htmlDocumentBoddy">
-          <div class="activeElement"  id="activeElement">
+          <div class="activeElement none"  id="activeElement">
             <p>
               «activeElement»-ը վերաբերում է վեբ էջի այն տարրին, որը ներկայումս կենտրոնացված է և ընտրված է օգտատերերի փոխազդեցության համար:
                Սա կարող է լինել մուտքագրման դաշտ, կոճակ, հղում կամ վեբ էջի ցանկացած այլ ինտերակտիվ տարր: Ակտիվ տարրը որոշվում է օգտատիրոջ ներկայիս 

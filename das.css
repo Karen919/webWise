@@ -1,9 +1,13 @@
-
+p {
+  line-height: 1.3;
+  padding: 20px;
+}
 main {
     overflow: hidden;
     margin-top: 50px;
     /* background-color: var(--divBgColor); */
     padding-top: 50px;
+    color: aliceblue;
 }
 .section  {
  display: flex;
